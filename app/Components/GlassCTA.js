@@ -11,9 +11,9 @@ const GlassContainer = () => {
         <AnimatedHeader />
         <AnimatedCard />
         <div className="flex gap-4">
-          // <SocialMediaIcon icon={<FiFacebook />} delay={0.2} />
-          // <SocialMediaIcon icon={<FiTwitter />} delay={0.4} />
-          // <SocialMediaIcon icon={<FiInstagram />} delay={0.6} />
+          <SocialMediaIcon icon={<FiFacebook />} delay={0.2} />
+          <SocialMediaIcon icon={<FiTwitter />} delay={0.4} />
+          <SocialMediaIcon icon={<FiInstagram />} delay={0.6} />
         </div> 
       </div>
     </div>
