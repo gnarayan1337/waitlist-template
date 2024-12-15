@@ -89,7 +89,7 @@ const AnimatedCard = () => {
     >
       <h2 className="text-white text-4xl font-semibold text-center">Transform Learning with AI</h2>
       <p className="text-white mt-4 text-center sm:px-16 text-gray-300">
-        Use your school-affiliated email to join us. We'll be in touch with updates and exclusive access to our AI tools designed to transform learning and teaching.
+        Use your school-affiliated email to join us. We\'ll be in touch with updates and exclusive access to our AI tools designed to transform learning and teaching.
       </p>
       <div className="max-w-sm mx-auto">
         <WaitlistForm />
