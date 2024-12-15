@@ -87,9 +87,9 @@ const AnimatedCard = () => {
       animate={controls}
       className="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg border border-gray-500 rounded-3xl p-8 py-12 shadow-lg max-w-2xl w-full mb-6"
     >
-      <h2 className="text-white text-4xl font-semibold text-center">Join Our Waitlist</h2>
+      <h2 className="text-white text-4xl font-semibold text-center">Transform Learning with AI</h2>
       <p className="text-white mt-4 text-center sm:px-16 text-gray-300">
-        Sign up to be the first to know when we launch. We will let you know once we are ready to go on production.
+        Sign up with your school-affiliated email to get early access to our AI tools. We’ll be in touch with updates and resources to help transform your classrooms and streamline school operations.
       </p>
       <div className="max-w-sm mx-auto">
         <WaitlistForm />
@@ -122,7 +122,7 @@ const WaitlistForm = () => {
         type="submit"
         className="group flex shrink-0 items-center gap-1.5 rounded-full bg-gray-200 px-4 py-3 text-sm font-medium text-black transition-transform active:scale-[0.985]"
       >
-        <span>Join Waitlist</span>
+        <span>Sign Up</span>
         <FiArrowRight className="-mr-4 opacity-0 transition-all group-hover:-mr-0 group-hover:opacity-100 group-active:-rotate-45" />
       </button>
     </form>
