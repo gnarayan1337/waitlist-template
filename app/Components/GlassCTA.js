@@ -10,11 +10,11 @@ const GlassContainer = () => {
         <AnimatedRoundedTag />
         <AnimatedHeader />
         <AnimatedCard />
-        <div className="flex gap-4">
-          <SocialMediaIcon icon={<FiFacebook />} delay={0.2} />
-          <SocialMediaIcon icon={<FiTwitter />} delay={0.4} />
-          <SocialMediaIcon icon={<FiInstagram />} delay={0.6} />
-        </div>
+        // <div className="flex gap-4">
+        //   <SocialMediaIcon icon={<FiFacebook />} delay={0.2} />
+        //   <SocialMediaIcon icon={<FiTwitter />} delay={0.4} />
+        //   <SocialMediaIcon icon={<FiInstagram />} delay={0.6} />
+        // </div> // commented out socials
       </div>
     </div>
   );
@@ -46,7 +46,7 @@ const AnimatedRoundedTag = () => {
   className="bg-white bg-opacity-20 backdrop-filter backdrop-blur-md border border-gray-500 rounded-full px-4 py-2 flex items-center gap-2 shadow-md mb-6"
 >
   <FiUsers className="text-white" /> {/* Replace FiTag with FiUsers */}
-  <span className="text-white text-sm font-medium">26,423 Users!</span>
+  <span className="text-white text-sm font-medium">26,423 Active Students!</span>
 </motion.div>
 
   );
