@@ -97,16 +97,10 @@ const AnimatedCard = () => {
       className="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg border border-gray-500 rounded-3xl p-8 py-12 shadow-lg max-w-2xl w-full mb-6"
     >
       <h2 className="text-white text-4xl font-semibold text-center">Transform Learning with AI</h2>
-      // <p className="text-white mt-4 text-center sm:px-16 text-gray-300">
-      //   Use your school-affiliated email to join us. We will be in touch with updates and exclusive access to our AI tools designed to transform learning and teaching.
-      // </p
-        <p className="text-white mt-4 text-center sm:px-16 text-gray-300">
-  Use your school-affiliated email to sign up and join us. We’ll be in touch with updates and exclusive access to our AI tools designed to transform learning and teaching.
-</p>
-<div className="text-white text-center mt-6 text-sm font-medium">
-  — Gautam Narayan<br />
-  <span className="text-gray-300">Co-Founder & CEO</span>
-</div>
+      <p className="text-white mt-4 text-center sm:px-16 text-gray-300">
+        Sign up with your school-affiliated email and join a community of over 20,000 educators & students! \n -Gautam Narayan, Founder
+      </p
+        
 //end
       <div className="max-w-sm mx-auto">
         <WaitlistForm />
