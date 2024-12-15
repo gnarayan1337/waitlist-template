@@ -98,11 +98,8 @@ const AnimatedCard = () => {
     >
       <h2 className="text-white text-4xl font-semibold text-center">Transform Learning with AI</h2>
       <p className="text-white mt-4 text-center sm:px-16 text-gray-300">
-          Sign up with your school-affiliated email and join a community of over 20,000 educators & students!<br />
-  — Gautam Narayan, Founder
-      </p
-        
-//end
+        Use your school-affiliated email to join us. We will be in touch with updates and exclusive access to our AI tools designed to transform learning and teaching.
+      </p>
       <div className="max-w-sm mx-auto">
         <WaitlistForm />
       </div>
