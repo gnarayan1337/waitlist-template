@@ -38,7 +38,7 @@ const AnimatedRoundedTag = () => {
       className="bg-white bg-opacity-20 backdrop-filter backdrop-blur-md border border-gray-500 rounded-full px-4 py-2 flex items-center gap-2 shadow-md mb-6"
     >
       <FiTag className="text-white" />
-      <span className="text-white text-sm font-medium">New Feature</span>
+      <span className="text-white text-sm font-medium">26,423 Students!</span>
     </motion.div>
   );
 };
@@ -64,7 +64,7 @@ const AnimatedHeader = () => {
         Coming Soon!
       </span>
       <h1 className="relative top-0 w-fit h-auto py-4 justify-center flex bg-gradient-to-r items-center from-gray-300 via-gray-200 to-gray-100 bg-clip-text text-7xl font-extrabold text-transparent text-center select-auto tracking-tight">
-        Coming Soon!
+        Learnivize
       </h1>
     </motion.div>
   );
