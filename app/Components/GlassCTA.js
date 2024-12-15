@@ -1,6 +1,6 @@
 "use client";
 import { useRef, useEffect } from "react";
-import { FiArrowRight, FiTag, FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
+import { FiArrowRight, FiTag, FiUsers, FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
 import { motion, useAnimation } from "framer-motion";
 
 const GlassContainer = () => {
@@ -32,14 +32,23 @@ const AnimatedRoundedTag = () => {
   }, [controls]);
 
   return (
+    // <motion.div
+    //   initial={{ opacity: 0, scale: 0.5 }}
+    //   animate={controls}
+    //   className="bg-white bg-opacity-20 backdrop-filter backdrop-blur-md border border-gray-500 rounded-full px-4 py-2 flex items-center gap-2 shadow-md mb-6"
+    // >
+    //   <FiTag className="text-white" />
+    //   <span className="text-white text-sm font-medium">26,423 Students!</span>
+    // </motion.div>
     <motion.div
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={controls}
-      className="bg-white bg-opacity-20 backdrop-filter backdrop-blur-md border border-gray-500 rounded-full px-4 py-2 flex items-center gap-2 shadow-md mb-6"
-    >
-      <FiTag className="text-white" />
-      <span className="text-white text-sm font-medium">26,423 Students!</span>
-    </motion.div>
+  initial={{ opacity: 0, scale: 0.5 }}
+  animate={controls}
+  className="bg-white bg-opacity-20 backdrop-filter backdrop-blur-md border border-gray-500 rounded-full px-4 py-2 flex items-center gap-2 shadow-md mb-6"
+>
+  <FiUsers className="text-white" /> {/* Replace FiTag with FiUsers */}
+  <span className="text-white text-sm font-medium">26,423 Users!</span>
+</motion.div>
+
   );
 };
 
