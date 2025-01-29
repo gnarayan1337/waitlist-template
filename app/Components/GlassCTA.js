@@ -312,14 +312,27 @@ const WaitlistForm = () => {
         placeholder="Enter your email"
         className="w-full bg-transparent text-sm text-white placeholder-white/80 focus:outline-0"
       />
+      // <button
+      //   onClick={(e) => e.stopPropagation()}
+      //   type="submit"
+      //   className="group flex shrink-0 items-center gap-1.5 rounded-full bg-gray-200 px-4 py-3 text-sm font-medium text-black transition-transform active:scale-[0.985]"
+      // >
+      //   <span>Sign Up</span>
+      //   <FiArrowRight className="-mr-4 opacity-0 transition-all group-hover:-mr-0 group-hover:opacity-100 group-active:-rotate-45" />
+      // </button>
+          // paste start
       <button
-        onClick={(e) => e.stopPropagation()}
+        onClick={(e) => {
+          e.stopPropagation();
+          alert("Learnivize has ended. Thank you for your support.");
+        }}
         type="submit"
         className="group flex shrink-0 items-center gap-1.5 rounded-full bg-gray-200 px-4 py-3 text-sm font-medium text-black transition-transform active:scale-[0.985]"
       >
         <span>Sign Up</span>
         <FiArrowRight className="-mr-4 opacity-0 transition-all group-hover:-mr-0 group-hover:opacity-100 group-active:-rotate-45" />
       </button>
+          // paste end
     </form>
   );
 };
