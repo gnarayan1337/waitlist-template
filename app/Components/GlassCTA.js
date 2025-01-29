@@ -230,7 +230,7 @@ const AnimatedRoundedTag = () => {
       className="bg-white bg-opacity-20 backdrop-filter backdrop-blur-md border border-gray-500 rounded-full px-4 py-2 flex items-center gap-2 shadow-md mb-6"
     >
       <FiUsers className="text-white" />
-      <span className="text-white text-sm font-medium">26,423 Active Students!</span>
+      <span className="text-white text-sm font-medium">28,557 Signups!</span>
     </motion.div>
   );
 };
@@ -281,7 +281,7 @@ const AnimatedCard = () => {
     >
       <h2 className="text-white text-4xl font-semibold text-center">Transform Learning with AI</h2>
       <p className="text-white mt-4 text-center sm:px-16 text-gray-300">
-        Sign up with your school-affiliated email and join a community of over 20,000 educators & students!
+        Sign up with your school-affiliated email and join a community of educators & students!
       </p>
       <p className="text-gray-300 mt-6 text-center italic text-lg">
         - Gautam Narayan, Founder
