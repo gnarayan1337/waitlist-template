@@ -7,7 +7,7 @@ export default function Home() {
     <main className='relative m-0 p-0 pb-0'>
       <BackgroundSection />
       <GlassCTA />
-      <Footer />
+    //  <Footer />
     </main>
   );
 }
